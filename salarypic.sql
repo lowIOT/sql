@@ -1,0 +1,1 @@
+SELECT Salary FROM customers.info ORDER BY Salary DESC;

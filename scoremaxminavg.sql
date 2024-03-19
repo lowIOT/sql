@@ -1,0 +1,16 @@
+SELECT manager, score FROM customers.assessmentrecord WHERE manager="KAMA";
+SELECT MAX(score) as KAMAの最高得点 FROM customers.assessmentrecord WHERE manager="KAMA";
+SELECT MIN(score) as KAMAの最低得点 FROM customers.assessmentrecord WHERE manager="KAMA";
+SELECT AVG(score) as KAMAの平均得点 FROM customers.assessmentrecord WHERE manager="KAMA";
+SELECT manager, score FROM customers.assessmentrecord WHERE manager="Tina";
+SELECT MAX(score) as Tinaの最高得点 FROM customers.assessmentrecord WHERE manager="Tina";
+SELECT MIN(score) as Tinaの最低得点 FROM customers.assessmentrecord WHERE manager="Tina";
+SELECT AVG(score) as Tinaの平均得点 FROM customers.assessmentrecord WHERE manager="Tina";
+SELECT manager, score FROM customers.assessmentrecord WHERE manager="TOM";
+SELECT MAX(score) as TOMの最高得点 FROM customers.assessmentrecord WHERE manager="TOM";
+SELECT MIN(score) as TOMの最低得点 FROM customers.assessmentrecord WHERE manager="TOM";
+SELECT AVG(score) as TOMの平均得点 FROM customers.assessmentrecord WHERE manager="TOM";
+SELECT manager, score FROM customers.assessmentrecord WHERE manager="Sam";
+SELECT MAX(score) as Samの最高得点 FROM customers.assessmentrecord WHERE manager="Sam";
+SELECT MIN(score) as Samの最低得点 FROM customers.assessmentrecord WHERE manager="Sam";
+SELECT AVG(score) as Samの平均得点 FROM customers.assessmentrecord WHERE manager="Sam";

@@ -1,0 +1,1 @@
+CREATE TABLE customers.info (ID int, Name varchar(255), Age int, Salary double, City varchar(255), Country varchar(255));

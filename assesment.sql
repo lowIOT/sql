@@ -1,0 +1,1 @@
+CREATE TABLE customers.assessmentrecord (ID int, time DATETIME, manager varchar(255), score int);
